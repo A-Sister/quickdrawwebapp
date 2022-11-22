@@ -1,0 +1,68 @@
+body{
+    background-color:mistyrose;
+    font-family: monospace;
+}
+
+#score{
+    font-size: 25px;
+    float: left;
+    margin-left: 90px;
+    color:navy;
+}
+
+#timer{
+    font-size: 25px;
+    float:right;
+    margin-right: 90px;
+    color:navy;
+}
+
+#sketch_name{
+    color:maroon;
+    font-size: 20px;
+}
+
+#sketch{
+    font-size:20px;
+    color:steelblue;
+}
+
+#confidence{
+    font-size:20px;
+    color:mintcream;
+}
+
+h1{
+    color:indigo;
+    padding-left: 215px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width:90%;
+    background-color:rosybrown;
+    border-color:black;
+    border-style: dashed;
+    border-width: 2px;
+
+}
+
+#show_sketch{
+    float:right;
+    margin-right:100px;
+}
+
+p{
+    padding-top: 10px;
+}
+
+canvas{
+    border: 2px dashed rgb(221, 221, 202);
+    border-radius: 15px;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    from{box-shadow: 15px 15px 30px rgb(175, 152, 152);}
+    to{box-shadow: 15px 15px 32px rgb(174, 187, 226);}
+}
